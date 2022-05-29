@@ -8,11 +8,14 @@ import Dashboard from './Pages/Dashboard';
 // import NotFound from './Pages/404';
 // import Blank from './Pages/Blank';
 // import Table from './Pages/Table';
+// import Card from './Pages/Card';
+// import Button from './Pages/Button';
+import Chart from './Pages/Chart';
 
 function App() {
   return (
     <Router>
-      <Dashboard/>
+      <Chart/>
     </Router>
   );
 }

@@ -47,13 +47,15 @@ export default function Sidebar(){
                         <h6 className="collapse-header">Other Pages:</h6>
                         <a className="collapse-item" href={'/404'}>404 Page</a>
                         <a className="collapse-item" href={'/blank'}>Blank Page</a>
+                        <a className="collapse-item" href={'/card'}>Card Page</a>
+                        <a className="collapse-item" href={'/button'}>Button Page</a>
                     </div>
                 </div>
             </li>
 
             {/*  Nav Item - Charts  */}
             <li className="nav-item">
-                <a className="nav-link" href={'/'}>
+                <a className="nav-link" href={'/chart'}>
                     <i className="fas fa-fw fa-chart-area"></i>
                     <span>Charts</span></a>
             </li>
