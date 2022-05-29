@@ -1,5 +1,5 @@
 import React from "react";
-
+import {NavLink as Link} from "react-router-dom";
 export default function Dashboard(){
     return (
         <>
@@ -7,7 +7,7 @@ export default function Dashboard(){
                 {/* Page Heading */}
                 <div className="d-sm-flex align-items-center justify-content-between mb-4">
                     <h1 className="h3 mb-0 text-gray-800">Dashboard</h1>
-                    <a href="#" className="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                    <a href={'/'} className="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
                             className="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
                 </div>
                 {/* Content Row */}
@@ -107,17 +107,17 @@ export default function Dashboard(){
                                 className="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                 <h6 className="m-0 font-weight-bold text-primary">Earnings Overview</h6>
                                 <div className="dropdown no-arrow">
-                                    <a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                    <a className="dropdown-toggle" href={'/'} role="button" id="dropdownMenuLink"
                                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
                                     </a>
                                     <div className="dropdown-menu dropdown-menu-right shadow animated--fade-in"
                                         aria-labelledby="dropdownMenuLink">
                                         <div className="dropdown-header">Dropdown Header:</div>
-                                        <a className="dropdown-item" href="#">Action</a>
-                                        <a className="dropdown-item" href="#">Another action</a>
+                                        <a className="dropdown-item" href={'/'}>Action</a>
+                                        <a className="dropdown-item" href={'/'}>Another action</a>
                                         <div className="dropdown-divider"></div>
-                                        <a className="dropdown-item" href="#">Something else here</a>
+                                        <a className="dropdown-item" href={'/'}>Something else here</a>
                                     </div>
                                 </div>
                             </div>
@@ -138,17 +138,17 @@ export default function Dashboard(){
                                 className="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                 <h6 className="m-0 font-weight-bold text-primary">Revenue Sources</h6>
                                 <div className="dropdown no-arrow">
-                                    <a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                    <a className="dropdown-toggle" href={'/'} role="button" id="dropdownMenuLink"
                                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
                                     </a>
                                     <div className="dropdown-menu dropdown-menu-right shadow animated--fade-in"
                                         aria-labelledby="dropdownMenuLink">
                                         <div className="dropdown-header">Dropdown Header:</div>
-                                        <a className="dropdown-item" href="#">Action</a>
-                                        <a className="dropdown-item" href="#">Another action</a>
+                                        <a className="dropdown-item" href={'/'}>Action</a>
+                                        <a className="dropdown-item" href={'/'}>Another action</a>
                                         <div className="dropdown-divider"></div>
-                                        <a className="dropdown-item" href="#">Something else here</a>
+                                        <a className="dropdown-item" href={'/'}>Something else here</a>
                                     </div>
                                 </div>
                             </div>
@@ -299,12 +299,12 @@ export default function Dashboard(){
                                     <img className="img-fluid px-3 px-sm-4 mt-3 mb-4" style={{"width": "25rem"}}
                                         src="img/undraw_posting_photo.svg" alt="..."/>
                                 </div>
-                                <p>Add some quality, svg illustrations to your project courtesy of <a
-                                        target="_blank" rel="nofollow" href="#">unDraw</a>, a
+                                <p>Add some quality, svg illustrations to your project courtesy of 
+                                    <Link target='_blank' rel="nofollow" to='/'>unDraw</Link>, a
                                     constantly updated collection of beautiful svg images that you can use
                                     completely free and without attribution!</p>
-                                <a target="_blank" rel="nofollow" href="#">Browse Illustrations on
-                                    unDraw &rarr;</a>
+                                <Link target='_blank' rel="nofollow" to='/'>Browse Illustrations on
+                                    unDraw &rarr;</Link>
                             </div>
                         </div>
 

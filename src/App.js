@@ -1,29 +1,19 @@
-import Header from './Components/Header';
-import Sidebar from './Components/Sidebar';
-import Footer from './Components/Footer';
-import Login from './Pages/Public/Login';
-import Forget_Password from './Pages/Public/Forget_Password';
-import Signup from './Pages/Public/Signup';
+import {BrowserRouter as Router, 
+  // Route, Link
+} from 'react-router-dom';
 import Dashboard from './Pages/Dashboard';
+// import Login from './Pages/Public/Login';
+// import Forget_Password from './Pages/Public/Forget_Password';
+// import Signup from './Pages/Public/Signup';
+// import NotFound from './Pages/404';
+// import Blank from './Pages/Blank';
+// import Table from './Pages/Table';
 
 function App() {
   return (
-    <>
-      <div id="wrapper">
-      <Sidebar/>
-      <div id="content-wrapper" className="d-flex flex-column">
-        <div id="content">
-          <Header/>
-          <Dashboard/>
-          <Footer/>
-        </div>
-      </div>
-      </div>
-
-      {/* <Signup/> */}
-      {/* <Login/> */}
-      {/* <Forget_Password/> */}
-    </>
+    <Router>
+      <Dashboard/>
+    </Router>
   );
 }
 

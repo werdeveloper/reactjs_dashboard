@@ -39,16 +39,16 @@ export default function Sugnup(){
                                                     id="exampleRepeatPassword" placeholder="Repeat Password"/>
                                             </div>
                                         </div>
-                                        <a href="#" className="btn btn-primary btn-user btn-block">
+                                        <a href={'/'} className="btn btn-primary btn-user btn-block">
                                             Register Account
                                         </a>
                                     </form>
                                     <hr/>
                                     <div className="text-center">
-                                        <a className="small" href="#">Forgot Password?</a>
+                                        <a className="small" href={'/'}>Forgot Password?</a>
                                     </div>
                                     <div className="text-center">
-                                        <a className="small" href="#">Already have an account? Login!</a>
+                                        <a className="small" href={'/'}>Already have an account? Login!</a>
                                     </div>
                                 </div>
                             </div>

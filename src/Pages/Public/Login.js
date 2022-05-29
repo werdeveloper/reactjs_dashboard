@@ -34,16 +34,16 @@ export default function Login(){
                                                         Me</label>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn btn-primary btn-user btn-block">
+                                            <a href={'/'} class="btn btn-primary btn-user btn-block">
                                                 Login
                                             </a>
                                         </form>
                                         <hr/>
                                         <div class="text-center">
-                                            <a class="small" href="#">Forgot Password?</a>
+                                            <a class="small" href={'/'}>Forgot Password?</a>
                                         </div>
                                         <div class="text-center">
-                                            <a class="small" href="#">Create an Account!</a>
+                                            <a class="small" href={'/'}>Create an Account!</a>
                                         </div>
                                     </div>
                                 </div>
