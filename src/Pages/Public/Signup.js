@@ -45,10 +45,10 @@ export default function Sugnup(){
                                     </form>
                                     <hr/>
                                     <div className="text-center">
-                                        <a className="small" href={'/'}>Forgot Password?</a>
+                                        <a className="small" href={'/forget_password'}>Forgot Password?</a>
                                     </div>
                                     <div className="text-center">
-                                        <a className="small" href={'/'}>Already have an account? Login!</a>
+                                        <a className="small" href={'/signup'}>Already have an account? Login!</a>
                                     </div>
                                 </div>
                             </div>

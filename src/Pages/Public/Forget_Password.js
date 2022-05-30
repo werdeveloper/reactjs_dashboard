@@ -31,10 +31,10 @@ export default function Forgot_Password(){
                                             </form>
                                             <hr/>
                                             <div className="text-center">
-                                                <a className="small" href={'/'}>Create an Account!</a>
+                                                <a className="small" href={'/signup'}>Create an Account!</a>
                                             </div>
                                             <div className="text-center">
-                                                <a className="small" href={'/'}>Already have an account? Login!</a>
+                                                <a className="small" href={'/login'}>Already have an account? Login!</a>
                                             </div>
                                         </div>
                                     </div>

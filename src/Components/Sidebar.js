@@ -42,7 +42,7 @@ export default function Sidebar(){
                         <h6 className="collapse-header">Login Screens:</h6>
                         <a className="collapse-item" href={'/login'}>Login</a>
                         <a className="collapse-item" href={'/signup'}>Register</a>
-                        <a className="collapse-item" href={'/forger_password'}>Forgot Password</a>
+                        <a className="collapse-item" href={'/forget_password'}>Forgot Password</a>
                         <div className="collapse-divider"></div>
                         <h6 className="collapse-header">Other Pages:</h6>
                         <a className="collapse-item" href={'/404'}>404 Page</a>
